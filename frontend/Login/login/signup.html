@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            width: 70%;
+            max-width: 900px;
+            height: 500px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            background-color: white;
+        }
+        .left {
+            flex: 1;
+            background: url('https://blog.usetada.com/hs-fs/hubfs/Jangan%20Keliru%20Terapkan%20Program%20Promosi%2C%20Ini%20Tipsnya!.jpg?width=5000&name=Jangan%20Keliru%20Terapkan%20Program%20Promosi%2C%20Ini%20Tipsnya!.jpg') no-repeat center center/cover;
+        }
+        .right {
+            flex: 1;
+            padding: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #333;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #044176;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            padding: 12px;
+            width: 100%;
+            background-color: #044176;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1b6ac5;
+        }
+        .small-text {
+            text-align: center;
+            margin-top: 10px;
+            color: #044176;
+        }
+        .small-text a {
+            color: #044176;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <h2 style="color: #044176;">Sign Up</h2>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Confirm Password">
+            <button>Sign Up</button>
+            <p class="small-text">Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
